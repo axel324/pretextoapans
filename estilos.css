@@ -1,0 +1,296 @@
+body{
+  
+  background:url(multimedia/principal/taza.png)no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-size: 25px;
+  display: block;
+  margin: 1px;   
+}
+header{
+  background-color:rgba(0,0,0,0.5); 
+}
+*{
+padding:0px;
+}
+
+#menu{
+margin:auto;
+}
+ul, ol {
+    list-style:none;}
+
+.menu > li {
+  float:right;/*hace el menu horizontal*/
+     
+}
+.menu li a {
+
+ background-color:#fff;
+ background-color:rgba(0,0,0,0); 
+ font-weight: bold;
+ text-decoration:none;
+ color: white;
+ padding:5px 40px;
+ display:block;
+ font-size: 25px;
+
+          
+}
+.menu li a:hover {
+background-color:rgba(0,0,0,0.6);;
+}
+			
+.menu li ul {
+
+display:none;
+position:absolute;
+min-width:10px;
+}
+			
+.menu li:hover > ul {
+display:block;
+}
+			
+.menu li ul li {
+background-color:rgba(0,0,0,0.8); 
+position:relative;
+padding:0px;
+z-index: 2;
+
+}
+			
+.menu li ul li ul {
+
+right:190px;
+top:0px;
+
+}
+
+.boton1
+{
+
+ background-color:#fff;
+ background-color:rgba(0,0,0,0.5); 
+ font-weight: bold;
+ margin:43px;
+ text-decoration:none;
+ float: left;
+ position:relative;
+ z-index: 1;
+ color: white;
+ margin-left:95px; 
+ padding:10px 30px;
+ display:block;
+ font-size: 25px;
+ height:25%;
+ width: 15%;
+ margin-top:30px;
+
+
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+
+
+
+.subboton{
+
+color: white;
+text-decoration:none;
+z-index: 1;
+background-color:rgba(0,0,0,0.5); 
+ height:10%;
+ width: 20%;
+}
+
+#mensaje{
+ 
+  height:40%;
+  width:30%;
+   background-color:rgba(0,0,0,0.5); 
+  margin-top:-525px;
+  margin-left:825px;
+  color: white;
+}
+#ma{
+  margin-right:1000px;
+}
+#imas{
+  margin-top:10px;
+  margin-left:825px;
+}
+#c{
+  height:70%;
+  width:70%;
+  background-color:white;
+  float: left;
+}
+#d{
+  height: 70%;
+  width: 30%;
+  background-color:black;
+  float: right;
+}
+#vidio{
+  width: 50%;
+  height: 500px;
+  background-color:rgba(0,0,0,0.5); 
+  
+
+}
+#h{
+margin: 1px;
+}
+#mensajecoctel{
+height: 65%;
+  width: 60%;
+  background-color:#AEB404;
+
+  margin-right: 50px;
+  float: right;
+  background-color:rgba(0,0,0,0.5); 
+ 
+}
+
+
+}
+a:link 
+{ 
+text-decoration:none; 
+} 
+footer{
+  
+  position:absolute;
+    width: 100%;
+
+    background: #202020;
+    color: white;   
+
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 140px;
+    font-size: 15px;
+}
+
+.footerc{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copy{
+    color: #C7C7C7;
+}
+
+.copy a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.inf a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+
+    .cuerpo{
+        flex-wrap: wrap;
+    }
+
+    .colum1{
+        max-width: 100%;
+    }
+
+    .colum2,
+    .colum3{
+
+        margin-top: 40px;
+    }
+}
+

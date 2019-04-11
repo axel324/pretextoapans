@@ -1,0 +1,328 @@
+<html>
+<head>
+    <link rel="icon" type="image/png" href="multimedia/principal/logo.png" >
+	<title>Fuentes de informacion</title>
+	<meta><a name="canvas"></a>
+	<script type="text/javascript">
+		function mibujo() {
+			// body...
+			var canvas=document.getElementById('dibujo');
+			var ctx=canvas.getContext('2d');
+	
+
+//circulos
+
+
+			 ctx.beginPath();
+
+			 ctx.strokeStyle= "#2b2418";
+			 ctx.lineWidth=3;
+ctx.fillStyle = "#ffffff";
+ctx.arc(60,60,50,0,Math.PI*2,true);
+
+
+			 ctx.stroke();
+			ctx.fill();
+
+
+
+			 ctx.closePath();
+			  ctx.beginPath();
+			   ctx.strokeStyle= "#2b2418";
+			 ctx.lineWidth=3;
+ctx.fillStyle = "#ffffff";
+
+ctx.arc(60,60,30,0,Math.PI*2,true);
+
+
+			 ctx.stroke();
+			ctx.fill();
+
+
+			 ctx.closePath();
+
+
+
+
+
+
+
+//Arriba
+
+
+
+ctx.beginPath();
+ ctx.strokeStyle= "#2b2418";
+			 ctx.lineWidth=1;
+ctx.fillStyle = "#2b2418";
+
+ctx.moveTo(34, 44);
+ctx.lineTo(30, 51);
+ctx.lineTo(23, 42);
+ctx.lineTo(34, 44);
+
+ctx.moveTo(40, 38);
+ctx.lineTo(34, 44);
+ctx.lineTo(29, 34);
+ctx.lineTo(40, 38);
+
+ctx.moveTo(46, 33);
+ctx.lineTo(40, 38);
+ctx.lineTo(37, 27);
+ctx.lineTo(46, 33);
+
+
+
+
+
+
+ctx.moveTo(54, 30);
+ctx.lineTo(46, 32);
+ctx.lineTo(47, 22);
+ctx.lineTo(54, 30);
+
+ctx.moveTo(65, 31);
+ctx.lineTo(53, 30);
+ctx.lineTo(60, 20);
+ctx.lineTo(65, 31);
+
+ctx.moveTo(73, 33);
+ctx.lineTo(64, 31);
+ctx.lineTo(71, 22);
+ctx.lineTo(73, 33);
+
+ctx.moveTo(80, 38);
+ctx.lineTo(73, 33);
+ctx.lineTo(82, 27);
+ctx.lineTo(80, 38);
+
+ctx.moveTo(86, 44);
+ctx.lineTo(80, 38);
+ctx.lineTo(90, 34);
+ctx.lineTo(86, 44);
+
+ctx.moveTo(90, 51);
+ctx.lineTo(85, 44);
+ctx.lineTo(97, 42);
+ctx.lineTo(90, 51);
+
+
+
+
+
+
+
+ctx.stroke();
+ctx.fill();
+
+
+ctx.closePath();
+
+
+
+
+
+
+
+
+//abajo
+
+
+ctx.beginPath();
+
+
+
+
+
+
+
+ ctx.strokeStyle= "#2b2418";
+			 ctx.lineWidth=1;
+ctx.fillStyle = "#2b2418";
+ctx.moveTo(34, 77);
+ctx.lineTo(31, 70);
+ctx.lineTo(23, 79);
+ctx.lineTo(34, 77);
+
+ctx.moveTo(40, 83);
+ctx.lineTo(34, 77);
+ctx.lineTo(29, 88);
+ctx.lineTo(40, 83);
+
+
+ctx.moveTo(46, 87);
+ctx.lineTo(40, 83);
+ctx.lineTo(37, 95);
+ctx.lineTo(46, 87);
+
+
+ctx.moveTo(54, 91);
+ctx.lineTo(46, 87);
+ctx.lineTo(48, 100);
+ctx.lineTo(54, 91);
+//
+ctx.moveTo(65, 91);
+ctx.lineTo(55, 91);
+ctx.lineTo(60, 101);
+ctx.lineTo(65, 91);
+
+
+
+ ctx.moveTo(74, 88);
+ ctx.lineTo(66, 91);
+ ctx.lineTo(73, 100);
+ ctx.lineTo(74, 88);
+
+ ctx.moveTo(80, 83);
+ctx.lineTo(74, 88);
+ctx.lineTo(84, 95);
+ctx.lineTo(80, 83);
+
+ ctx.moveTo(85, 77);
+ctx.lineTo(80, 83);
+ctx.lineTo(91, 87);
+ctx.lineTo(85, 77);
+
+ ctx.moveTo(90, 70);
+ctx.lineTo(85, 77);
+ctx.lineTo(97, 79);
+ctx.lineTo(90, 70);
+
+
+
+
+
+ ctx.stroke();
+ctx.fill();
+
+
+ctx.closePath();
+//rectangulos
+
+
+ctx.beginPath();
+ctx.moveTo(9, 51);
+ctx.lineTo(30, 51);
+ctx.lineTo(30, 70);
+ctx.lineTo(9, 70);
+ctx.lineTo(10, 51);
+ctx.moveTo(90, 51);
+ctx.lineTo(110, 51);
+ctx.lineTo(110, 70);
+ctx.lineTo(90, 70);
+ctx.lineTo(90, 51);
+
+
+
+ ctx.stroke();
+ctx.fill();
+ctx.closePath();
+
+
+//Texto
+ctx.beginPath();
+
+ctx.font=" 15px Monserrat";
+ctx.fillText("Pretexto", 37,55)
+
+ctx.font=" 9px Roboto";
+ctx.fillText("Cafe-Restaurant", 30,70);
+
+ctx.closePath();
+
+}
+		
+	</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body onload="mibujo();" onload="otbujo();">
+
+<h1 style="color:white;">Canva</h1>
+<br>
+<canvas id="dibujo" width="115px" height="115px" style="border:double; border-color: #434334; ">Tu navegador no soporta canvas</canvas>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br><br>
+<br><br>
+<br>
+
+<footer>
+
+       <div class="container-footer-all">
+
+            <div class="cuerpo">
+
+                <div class="colum1">
+                    <h1>Mas sobre nosotrs</h1>
+
+                    <p>Esta cafeteria restaurant esta basad  en los beattles</p>
+
+                </div>
+
+                <div class="colum2">
+
+                    <h1>Siguenos en ...</h1>
+
+                    <div class="row">
+                        <img src="./multimedia/redes/facebook.png">
+                        <label>Siguenos en Facebook</label>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="./multimedia/redes/instagram.png">
+                        <label>Siguenos en Instagram</label>
+                    </div>
+                   
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Contactanos...</h1>
+
+                    <div class="row2">
+                        <img src="multimedia/carrete/house.png">
+                        <label>Apan Hgo. 5 Mayo Oriente #25</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="multimedia/carrete/smartphone.png">
+                        <label>74-89-12-12-96</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="multimedia/carrete/contact.png">
+                         <label>@pretextocaferestaurante</label>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footerc">
+               <div class="footer">
+                    <div class="copy">
+                        © 2019 Todos los Derechos Reservados | <a href="">Pretexto</a>
+                    </div>
+
+                    <div class="inf">
+                        <a href="conocenos.html#conocenos" >Informacion de la  Cafeteria</a> | <a href="">Fuentes de informacion</a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+</body>
+</html>
