@@ -1,1 +1,157 @@
-<!--
+<html>
+<head><link rel="stylesheet" href="estilos.css" type="text/css"/><title>Pretexto</title>
+    <link rel="icon" type="image/png" href="multimedia/principal/logo.png" >
+	<script>
+	var i = 0; // Start point
+	var images = [];
+	var time = 3000;
+
+	// Image List
+	images[0] = 'multimedia/carrete/prete.png';
+	images[1] = 'multimedia/carrete/preterose.jpg';
+	images[2] = 'multimedia/carrete/preteb.jpg';
+	images[3] = 'multimedia/carrete/pretew.jpg';
+	images[4] = 'multimedia/carrete/pretebu.jpg';
+	images[5] = 'multimedia/carrete/pretefu.jpg';
+	images[6] = 'multimedia/carrete/preteh.jpg';
+	images[7] = 'multimedia/carrete/pretef.png';
+
+	// Change Image
+	function changeImg(){
+		document.slide.src = images[i];
+
+		if(i < images.length - 1){
+			i++;
+		} else {
+			i = 0;
+		}
+
+		setTimeout("changeImg()", time);
+	}
+
+	window.onload = changeImg;
+</script>
+
+
+</head><a name="principal"></a>
+<header>
+<ul class="menu">
+
+<img src="multimedia\principal\logo.png" width="90px" height="90px">
+<li><a href="mapa.html#mapa"><img src="multimedia\principal\ubi.png" width="70px" height="78px"></a></li>
+<li><a href="index.html#principal"><img src="multimedia\principal\inicio.png" width="70px" height="78px"></a></li>
+<li><a href=""><p>Menu</p></a>
+<ul>
+<li><a href="desayunos.html#desayunos"><p>Desayunos</p></a></li>
+<li><a href="bebidas.html#bebidas"><p>Bebidas</p></a>
+</li>
+</ul>
+</li>
+<li><a href="conocenos.html#conocenos"><p>Conocenos</p></a></li></ul>
+</header>
+<body>
+<center>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</center>
+<img id="imagen" name="slide"  style="width:100%; height: 500px;  position:absolute; top:100px; bottom: -550px "> 
+<center> 
+<table border="30px" backgrond="multimedia\principal\taza.png" style="font-size: 30;border-color:#3A2F0B;color: #3A2F0B;">
+    <tr>
+    <td colspan="6" height="80px"><center><b><font size="40">Horarios</font></b></center></td>
+    </tr>
+    <tr>
+    <td>Lunes</td>
+    <td>Martes</td>
+    <td>Miercoles</td>
+    <td>Jueves</td>
+    <td>Viernes</td>
+    <td>Sabado</td>
+    </tr>
+    <td>7:00 am-8:00 pm</td>
+    <td>7:00 am-8:00 pm</td>
+    <td>7:00 am-8:00 pm</td>
+    <td>10:00 am-8:00 pm</td>
+    <td>7:00 am-8:00 pm</td>
+    <td>7:00 am-9:00 pm</td>
+    <tr>
+</table>
+</center>
+</body>
+<footer>
+
+       <div class="container-footer-all">
+
+            <div class="cuerpo">
+
+                <div class="colum1">
+                    <h1>Mas sobre nosotros</h1>
+
+                    <p>Somos una empresa dedicada a la venta de productos saludables elaborados con frutas y verduras frescas, comprometidos con el bienestar de nuestros clientes</p>
+
+                </div>
+
+                <div class="colum2">
+
+                    <h1>Siguenos en ...</h1>
+
+                    <div class="row">
+                        <a href="https://www.facebook.com/pretextocaferestaurante/">
+                        <img src="./multimedia/redes/facebook.png">
+                        <label>Siguenos en Facebook</label>
+                        </a>
+                    </div>
+                    
+                    <div class="row">
+                    <a href="https://www.instagram.com/pretextocaferestaurante/">
+                        <img src="./multimedia/redes/instagram.png">
+                        <label>Siguenos en Instagram</label>
+                        </a>
+                    </div>
+                   
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Contactanos...</h1>
+
+                    <div class="row2">
+                        <img src="multimedia/carrete/house.png">
+                        <label>Apan Hgo. 5 Mayo Oriente #25</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="multimedia/carrete/smartphone.png">
+                        <label>74-89-12-12-96</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="multimedia/carrete/contact.png">
+                         <label>@pretextocaferestaurante</label>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footerc">
+               <div class="footer">
+                    <div class="copy">
+                        © 2019 Todos los Derechos Reservados | <a href="">Pretexto</a>
+                    </div>
+
+                    <div class="inf">
+                        <a href="conocenos.html#conocenos" >Informacion de la  Cafeteria</a> | <a href="canvas.html#canvas">Fuentes de informacion</a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+
+
+
+</html>
